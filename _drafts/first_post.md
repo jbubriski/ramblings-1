@@ -23,7 +23,7 @@ Ok, shall we begin...
 
 In your terminal;
 
-```
+```bash
 # Install Jekyll and Bundler gems via RubyGems
 ~$ gem install jekyll bundler
 
@@ -37,19 +37,21 @@ In your terminal;
 Next, edit your Gemfile. Within name_of_blog directory is a file called Gemfile. Open it with your favorite editor;
 
 Remove or comment Jekyll gem:
-```
+
+```bash
 # Comment jekyll gem
 # gem "jekyll", "3.4.1"
 ```
 
 Delete the `#` at the beginning of this line:
-```
+
+```bash
 gem "github-pages", group: :jekyll_plugins
 ```
 
 Then update bundle and run the server
 
-```
+```bash
 # Rebuild snapshot
 ~/name_of_blog$ bundle update
 
@@ -63,14 +65,14 @@ Now go to http://localhost:4000. The site should be running locally at that addr
 
 #### Push the site to github
 
-```
+```bash
 # Initialize your site directory as a Git repository
 ~/name_of_blog$ git init
 ```
 
 At this point, we assume we have created a spanking new repo on Github. If we haven't, here's how to [create a repo](https://help.github.com/articles/create-a-repo/).
 
-```
+```bash
 # Connect your remote repository on GitHub to your local repository
 ~/name_of_blog$ git remote add origin https://github.com/username-or-organization-name/your-remote-repository-name.git
 ```
@@ -82,14 +84,14 @@ One can make certain edits at this stage. some edits might include:
 * etc
 
 
-```
+```bash
 # Add or stage your changes
 ~/name_of_blog$ git add -p
 ```
 
 The `-p` option steps through your changes, allowing you see exactly what was changed and giving you the option to accept or reject that change
 
-```
+```bash
 # Commit your changes with a comment
 ~/name_of_blog$ git commit -m "Edit or update site"
 ```
@@ -97,7 +99,7 @@ The `-p` option steps through your changes, allowing you see exactly what was ch
 Push your changes to your remote repository on GitHub. Because this is the the first push to the newly created remote branch, we add the upstream tracking reference using the `-u` flag
 After pushing, this links the local branch with the remote branch, and the commands `git pull` or `git push` can be used without any arguments
 
-```
+```bash
 # Pushing changes...
 ~/name_of_blog$ git push -u origin master
 ```
@@ -116,6 +118,8 @@ If you don't see this message, please refresh the page and check again.
 
 Your blog should be live.
 
-
+```markdown
 __Note__: As of 5th March, 2017, the gem `github-pages` comes with jekyll version 3.3.1
-Changing the theme in the repository's settings page causes the app to break. Removing the includes in the about.md page fixes this.
+Changing the theme in the repository's settings page causes the app to break. 
+Removing the includes in the about.md page fixes this.
+```
