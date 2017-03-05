@@ -13,7 +13,7 @@ GitHub Pages is a static site hosting service, [so they say](https://help.github
 
 You might want to take a look at the [terms of service](https://help.github.com/articles/github-terms-of-service/) and [community guidelines](https://help.github.com/articles/github-community-guidelines/), just so everyone's clear. 
 
-~~Dr.~~ Jekyll powers GitHub Pages. Jekyll is a simple, blog-aware, static site generator. They [did a better job](https://jekyllrb.com/docs/home/#so-what-is-jekyll-exactly) at explaining it than I would, so I'll just leave it at that.
+~~Dr.~~ Jekyll powers GitHub Pages. Jekyll is a simple, blog-aware, static site generator. They [did a better job](https://jekyllrb.com/docs/home/#so-what-is-jekyll-exactly) at explaining it than I would, so I'll leave it at that.
 
 We are going to set up our GitHub blog to run locally, then push it to GitHub.
 
