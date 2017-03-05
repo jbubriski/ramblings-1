@@ -9,17 +9,17 @@ categories: jekyll github-pages
 I just finished setting up my blog. It's still very much green, as am I, still I decided to begin my ramblings.
 
 ### What is GitHub Pages
-GitHub Pages is a static site hosting service, [so they say](https://help.github.com/articles/what-is-github-pages/). The idea is basically to have a static site hosted by GitHub Pages from a github repository. Emphasis here on **static site**. It doesn't support _server side_ code.
+GitHub Pages is a static site hosting service, [so they say](https://help.github.com/articles/what-is-github-pages/). The idea is basically to have a static site hosted by GitHub Pages from a GitHub repository. The emphasis here is on **static site**. It doesn't support _server side_ code.
 
 You might want to take a look at the [terms of service](https://help.github.com/articles/github-terms-of-service/) and [community guidelines](https://help.github.com/articles/github-community-guidelines/), just so everyone's clear. 
 
-~~Dr~~ Jekyll powers GitHub Pages. Jekyll is a simple, blog-aware, static site generator. They [did a better job](https://jekyllrb.com/docs/home/#so-what-is-jekyll-exactly) at explaining it than I would, so I'll just leave it at that.
+~~Dr.~~ Jekyll powers GitHub Pages. Jekyll is a simple, blog-aware, static site generator. They [did a better job](https://jekyllrb.com/docs/home/#so-what-is-jekyll-exactly) at explaining it than I would, so I'll just leave it at that.
 
-We are going to set up our GitHub blog to run locally, then push it to github.
+We are going to set up our GitHub blog to run locally, then push it to GitHub.
 
 Assumptions: 
 - You know about and have used GitHub before; which would imply
-- You're comfy with the terminal.
+- You're comfy with the terminal
 
 Ok, shall we begin...
 
@@ -35,7 +35,7 @@ In your terminal;
 # Install Jekyll and Bundler gems via RubyGems
 ~$ gem install jekyll bundler
 
-# Create a new Jekyll site at ./name_of_blog. This would be the root directory of your blog
+# Create a new Jekyll site at ./name_of_blog. This location would be the root directory of your blog
 ~$ jekyll new name_of_blog
 
 # Change into your new directory
@@ -57,7 +57,7 @@ Delete the `#` at the beginning of this line:
 gem "github-pages", group: :jekyll_plugins
 ```
 
-Then update bundle and run the server
+Then update bundle and run the server`:
 
 ```bash
 # Rebuild snapshot
@@ -73,7 +73,7 @@ Now go to http://localhost:4000. The site should be running locally at that addr
 
 ---
 
-#### Push the site to github
+#### Push the site to GitHub:
 
 ```bash
 # Initialize your site directory as a Git repository
@@ -87,7 +87,7 @@ At this point, we assume we have created a spanking new repo on Github. If we ha
 ~/name_of_blog$ git remote add origin https://github.com/username-or-organization-name/your-remote-repository-name.git
 ```
 
-One can make certain edits at this stage. some edits might include:
+One can make certain edits at this stage. Some edits might include:
 
 * editing the blog title / email / description / etc in the `_config.yml` file
 * creating a README.md file
@@ -99,15 +99,15 @@ One can make certain edits at this stage. some edits might include:
 ~/name_of_blog$ git add -p
 ```
 
-The `-p` option steps through your changes, allowing you see exactly what was changed and giving you the option to accept or reject that change
+The `-p` flag steps through your changes, allowing you see what was changed and giving you the option to accept or reject that change.
 
 ```bash
 # Commit your changes with a comment
 ~/name_of_blog$ git commit -m "Edit or update site"
 ```
 
-Push your changes to your remote repository on GitHub. Because this is the the first push to the newly created remote branch, we add the upstream tracking reference using the `-u` flag
-After pushing, this links the local branch with the remote branch, and the commands `git pull` or `git push` can be used without any arguments
+Push your changes to your remote repository on GitHub. Because this is the first push to the newly created remote branch, we add the upstream tracking reference using the `-u` flag.
+After pushing, the local branch is linked to the remote branch, and the commands `git pull` or `git push` can be used without any arguments.
 
 ```bash
 # Pushing changes...
@@ -117,11 +117,11 @@ After pushing, this links the local branch with the remote branch, and the comma
 At this point, all your changes should be in the remote repository. To take our site live,
 
 * Click the "__Settings__" button at the top right
-* Scroll to the __GitHub Pages__, __Source__ section, click on the select-box and select `master branch`
-* Click on the __Save__ button to the right of the select-box
+* Scroll to the __GitHub Pages__, __Source__ section, click on the drop-down list and select `master branch`
+* Click on the __Save__ button to the right of the drop-down list
 
 
-You should see the message: 
+You should see the message:
 `Your site is published at https://username.github.io/your-remote-repository-name/`
 
 If you don't see this message, please refresh the page and check again.
@@ -129,7 +129,7 @@ If you don't see this message, please refresh the page and check again.
 Your blog should be live.
 
 ```markdown
-__Note__: As of 5th March, 2017, the gem `github-pages` comes with jekyll version 3.3.1
+__Note__: As of 5th March 2017, the gem `github-pages` comes with jekyll version 3.3.1
 Changing the theme in the repository's settings page causes the app to break. 
-Removing the includes in the about.md page fixes this.
+Removing the `includes` in the `about.md` page fixes this.
 ```
