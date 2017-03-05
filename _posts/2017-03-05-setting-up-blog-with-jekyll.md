@@ -17,6 +17,8 @@ Assumptions:
 
 Ok, shall we begin...
 
+<br>
+
 ---
 
 #### Run GitHub blog locally:
@@ -60,6 +62,8 @@ Then update bundle and run the server
 ```
 
 Now go to http://localhost:4000. The site should be running locally at that address.
+
+<br>
 
 ---
 
