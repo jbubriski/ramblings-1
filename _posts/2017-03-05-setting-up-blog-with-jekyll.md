@@ -8,7 +8,7 @@ categories: jekyll github-pages
 
 I just finished setting up my blog. It's still very much green, as am I, still I decided to begin my ramblings.
 
-### What is GitHub Pages
+### What is GitHub Pages?
 GitHub Pages is a static site hosting service, [so they say](https://help.github.com/articles/what-is-github-pages/). The idea is basically to have a static site hosted by GitHub Pages from a GitHub repository. The emphasis here is on **static site**. It doesn't support _server side_ code.
 
 You might want to take a look at the [terms of service](https://help.github.com/articles/github-terms-of-service/) and [community guidelines](https://help.github.com/articles/github-community-guidelines/), just so everyone's clear. 
