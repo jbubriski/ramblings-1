@@ -28,6 +28,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jemoji
+  - jekyll-crosspost-to-medium
 exclude:
   - Gemfile
   - Gemfile.lock
