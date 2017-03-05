@@ -7,7 +7,7 @@ GitHub Pages is a static site hosting service, [so they say](https://help.github
 
 You might want to take a look at the [terms of service](https://help.github.com/articles/github-terms-of-service/) and [community guidelines](https://help.github.com/articles/github-community-guidelines/), just so everyone's clear. 
 
-~~Dr~~ Jekyll powers GitHub Pages. Jekyll is a simple, blog-aware, static site generator. They [did a better job](https://jekyllrb.com/docs/home/#so-what-is-jekyll-exactly) at explaining it than I would, so I'll just leave it at that. 
+~~Dr~~ Jekyll powers GitHub Pages. Jekyll is a simple, blog-aware, static site generator. They [did a better job](https://jekyllrb.com/docs/home/#so-what-is-jekyll-exactly) at explaining it than I would, so I'll just leave it at that.
 
 We are going to set up our GitHub blog to run locally, then push it to github.
 
@@ -19,7 +19,7 @@ Ok, shall we begin...
 
 ---
 
-#### Run GitHub blog locally: 
+#### Run GitHub blog locally:
 
 In your terminal;
 
@@ -94,8 +94,7 @@ The `-p` option steps through your changes, allowing you see exactly what was ch
 ~/name_of_blog$ git commit -m "Edit or update site"
 ```
 
-Push your changes to your remote repository on GitHub. 
-Because this is the the first push to the newly created remote branch, we add the upstream tracking reference using the `-u` flag
+Push your changes to your remote repository on GitHub. Because this is the the first push to the newly created remote branch, we add the upstream tracking reference using the `-u` flag
 After pushing, this links the local branch with the remote branch, and the commands `git pull` or `git push` can be used without any arguments
 
 ```
