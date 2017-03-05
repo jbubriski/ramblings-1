@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Blogging with Jekyll!"
+categories: jekyll github-pages
+crosspost_to_medium: true
+---
+
 # Setting up a blog on GitHub Pages with Jekyll
 
 I just finished setting up my blog. It's still very much green, as am I, still I decided to begin my ramblings.
