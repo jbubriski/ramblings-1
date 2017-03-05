@@ -2,7 +2,7 @@
 layout: post
 title:  "Blogging with Jekyll!"
 categories: jekyll github-pages
-jekyll-crosspost_to_medium: true
+crosspost_to_medium: true
 ---
 
 # Setting up a blog on GitHub Pages with Jekyll
@@ -43,7 +43,7 @@ In your terminal;
 ~$ cd name_of_blog
 ```
 
-Next, edit your Gemfile. Within name_of_blog directory is a file called Gemfile. Open it with your favorite editor;
+Next, edit your Gemfile. Within `name_of_blog` directory is a file called Gemfile. Open it with your favorite editor;
 
 Remove or comment Jekyll gem:
 
