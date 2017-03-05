@@ -2,7 +2,6 @@
 layout: post
 title:  "Blogging with Jekyll!"
 categories: jekyll github-pages
-crosspost_to_medium: true
 ---
 
 # Setting up a blog on GitHub Pages with Jekyll
