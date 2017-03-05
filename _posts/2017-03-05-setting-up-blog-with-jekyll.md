@@ -131,5 +131,5 @@ Your blog should be live.
 ```markdown
 __Note__: As of 5th March 2017, the gem `github-pages` comes with jekyll version 3.3.1
 Changing the theme in the repository's settings page causes the app to break. 
-Removing the `includes` in the `about.md` page fixes this.
+Removing the includes in the `about.md` page fixes this.
 ```
