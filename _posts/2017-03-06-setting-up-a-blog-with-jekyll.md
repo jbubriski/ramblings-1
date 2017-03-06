@@ -80,7 +80,7 @@ Now go to http://localhost:4000. The site should be running locally at that addr
 ~/name_of_blog$ git init
 ```
 
-At this point, we assume we have created a spanking new repo on Github. If we haven't, here's how to [create a repo](https://help.github.com/articles/create-a-repo/).
+At this point, we assume we have created a spanking new repository on GitHub. If we haven't, here's how to [create a repo](https://help.github.com/articles/create-a-repo/).
 
 ```bash
 # Connect your remote repository on GitHub to your local repository
