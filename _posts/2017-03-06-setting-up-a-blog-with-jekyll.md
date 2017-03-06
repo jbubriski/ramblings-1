@@ -116,7 +116,7 @@ After pushing, the local branch is linked to the remote branch, and the commands
 
 At this point, all your changes should be in the remote repository. To take our site live,
 
-* Click the "__Settings__" button at the top right
+* Click the "__Settings__" button at the top right of your repository page (on GitHub)
 * Scroll to the __GitHub Pages__, __Source__ section, click on the drop-down list and select `master branch`
 * Click on the __Save__ button to the right of the drop-down list
 
@@ -126,7 +126,7 @@ You should see the message:
 
 If you don't see this message, please refresh the page and check again.
 
-Your blog should be live.
+Your blog should now be live.
 
 ```markdown
 __Note__: As of 5th March 2017, the gem `github-pages` comes with jekyll version 3.3.1
